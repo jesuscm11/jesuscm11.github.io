@@ -1,51 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css">
+    <title>Curr&iacute;culum - Jes&uacute;s Caballero Mart&iacute;n</title>
+    <link rel="stylesheet" href="./css/estilos.css">
     <script src="https://kit.fontawesome.com/f99b350056.js" crossorigin="anonymous"></script>
-    <title>CV Curriculum</title>
 </head>
 <body>
+    <!-- Encabezado -->
     <header>
-        <img src="./foto.png" alt="foto">
-        <h1>Jes&uacute;s Caballero Mart&iacute;n</h1>
+        <div class="header-content">
+            <img src="./img/fotomia.png" alt="" class="fotoperfil">
+            <div>
+                <h1>Jes&uacute;s Caballero Mart&iacute;n</h1>
+                <h3>T&eacute;cnico en Sistemas Microinform&aacute;ticos y Redes</h3>
+                <div class="enlaces">
+                    <a href="mailto:jesuscaballeromartin11@gmail.com?subject=Consulta%20Currículum&body=Hola%20Jesús,%20estoy%20interesado%20en%20conocer%20más%20sobre%20tu%20experiencia."><i class="fa-regular fa-envelope"></i></a>
+                    <a href="https://x.com/JCaballeroo4" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/jesusc.m11/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
     </header>
-    
-    <section>
-        <div class="linea1"></div>
-        <h2 class="titulos">
-            T&eacute;cnico en Sistemas Microinform&aacute;ticos y redes
-            <a href="gmail"><i class="fa-regular fa-envelope"></i></a>
-            <a href="twitter"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="instagram"><i class="fa-brands fa-instagram"></i></a>
-        </h2>
-        <div class="linea2"></div>
 
-        <p>Me considero una persona abierta, amable, con ganas de aprender y responsable. Me gusta trabajar en grupo y soy abierto cara al p&uacute;blico.</p>
-        <button>Contacta conmigo</button>
-        
-        <div class="linea1"></div>
-        <h2 class="titulos">Experiencia Laboral</h2>
-        <div class="linea2"></div>
+    <!-- Sección principal -->
+    <main>
+        <!-- Resumen Personal -->
+        <section class="sobremi">
+            <h2>Sobre m&iacute;</h2>
+            <p>Soy una persona abierta, amable, con ganas de aprender y responsable. Me gusta trabajar en equipo y soy abierto cara al p&uacute;blico. Quiero dar a conocer todos mis recursos estudiados durante estos años.</p>
+        </section>
 
-        <h2>-Trabajo agr&iacute;cola</h2>
-        <h4>Desde 2020 hasta actualidad.</h4>
-        <p>Realizaci&oacute;n de tareas propias de agricultura, as&iacute; como su gesti&oacute;n administrativa.</p>
+        <!-- Experiencia -->
+        <section class="experiencia">
+            <h2>Experiencia</h2>
 
-        <h2>-Hosteler&iacute;a</h2>
-        <h4>Desde 2022 hasta actualidad.</h4>
-        <p>Tareas propias de la hosteler&iacute;a, as&iacute; como su gesti&oacute;n administrativa.</p>
+            <div class="trabajos">
+                <h3>Ayuntamiento de Zagra</h3>
+                <p><strong>Del 19 de marzo de 2024 al 31 de mayo de 2024</strong></p>
+                <p>Pr&aacute;cticas del primer año del Grado Medio Dual Intensivo en Sistemas Microinform&aacute;ticos y Redes.</p>
+                <p>Realizaci&oacute;n de tareas de of&iacute;matica, configuraci&oacute;n de redes, montaje y mantenimiento de equipos.</p>
+            </div>
 
-        <h2>-Ayuntamiento de Zagra</h2>
-        <h4>Desde 19-03-2024 hasta 31-5-2024</h4>
-        <p>Pr&aacute;cticas de primer a&ntilde;o de Grado Medio.</p>
-    </section>
+            <div class="trabajos">
+                <h3>Hosteler&iacute;a</h3>
+                <p><strong>Desde 2022 hasta la actualidad</strong></p>
+                <p>Tareas propias de la hosteler&iacute;a, as&iacute; como gesti&oacute;n administrativa del negocio.</p>
+            </div>
 
+            <div class="trabajos">
+                <h3>Trabajo Agr&iacute;cola</h3>
+                <p><strong>Desde 2020 hasta la actualidad</strong></p>
+                <p>Realizaci&oacute;n de tareas propias de agricultura, as&iacute; como su gesti&oacute;n administrativa.</p>
+            </div>
+        </section>
+
+        <section class="estudios">
+            <h2>Estudios Acad&eacute;micos</h2>
+
+            <div class="trabajos">
+                <h3>FPGM Sistemas Microinform&aacute;ticos y Redes</h3>
+                <p><strong>Desde 2023 hasta la actualidad</strong></p>
+                <p>IES Alfaguara</p>
+            </div>
+
+            <div class="trabajos">
+                <h3>3º y 4º Enseñanza Secundaria Obligatoria</h3>
+                <p><strong>2021-2023</strong></p>
+                <p>IES Moraima</p>
+            </div>
+
+            <div class="trabajos">
+                <h3>1º y 2º Enseñanda Secundaria Obligatoria</h3>
+                <p><strong>2019-2021</strong></p>
+                <p>CEIP San Jos&eacute; de Calasanz</p>
+            </div>
+        </section>
+
+         <!-- Hard Skills y Soft Skills -->
+         <section class="skills-container">
+            <div class="skills-column">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>Configuraci&oacute;n de redes LAN/WAN</li>
+                    <li>Montaje y mantenimiento de equipos</li>
+                    <li>Dominio de herramientas de ofim&aacute;tica</li>
+                    <li>Instalaci&oacute;n y configuraci&oacute;n de sistemas operativos</li>
+                </ul>
+            </div>
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Resoluci&oacute;n de problemas</li>
+                    <li>Atenci&oacute;n al cliente</li>
+                    <li>Gesti&oacute;n del tiempo</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
     <footer>
-        Jes&uacute;s Caballero Mart&iacute;n&copy; - 18 de Noviembre de 2024
+        <p>Jes&uacute;s Caballero Mart&iacute;n &copy;</p>
     </footer>
-
 </body>
 </html>
