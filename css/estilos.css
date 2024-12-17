@@ -9,8 +9,7 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
-    margin: 0 25% 0 25%;
-    background-color: lightb;
+
 }
 
 h1 {
@@ -30,7 +29,7 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
-    margin-top: 25px;
+    margin: 25px 25% 0 25%;
 }
 
 .header-content {
@@ -117,6 +116,49 @@ footer {
     padding: 10px;
     background: #333;
     color: white;
-    margin-top: 20px;
+    margin: 20px 25% 0 25%;
     font-size: 0.9em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fotoperfil {
+        width: 100px;
+        height: 100px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .skills-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 0;
+    }
+
+    .enlaces a {
+        font-size: 1.2em;
+    }
+
+    .skills-column {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
 }
