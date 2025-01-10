@@ -120,7 +120,6 @@ footer {
     font-size: 0.9em;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
